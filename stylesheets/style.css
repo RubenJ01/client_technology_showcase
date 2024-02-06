@@ -45,6 +45,18 @@
     flex-direction: column;
 }
 
+.profile-content__list {
+    font-size: 14px;
+    list-style-position: inside;
+    padding: 0%;
+    color: rgba(39, 140, 39, 0.96);
+    
+}
+
+.profile-content__list > li::marker {
+    color: black;
+}
+
 .profile-content__element--hidden-mobile {
     display: flex;
     flex-direction: column;
